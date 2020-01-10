@@ -1,0 +1,171 @@
+﻿namespace 在线选课系统
+{
+    partial class 发布课程
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtCourseName = new System.Windows.Forms.TextBox();
+            this.txtCourseReamin = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtCourseScore = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtCoursePlace = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtCourseTime = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnAddCourse = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(96, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "课程名字";
+            // 
+            // txtCourseName
+            // 
+            this.txtCourseName.Location = new System.Drawing.Point(180, 74);
+            this.txtCourseName.Name = "txtCourseName";
+            this.txtCourseName.Size = new System.Drawing.Size(197, 21);
+            this.txtCourseName.TabIndex = 1;
+            // 
+            // txtCourseReamin
+            // 
+            this.txtCourseReamin.Location = new System.Drawing.Point(180, 274);
+            this.txtCourseReamin.Name = "txtCourseReamin";
+            this.txtCourseReamin.Size = new System.Drawing.Size(197, 21);
+            this.txtCourseReamin.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(96, 278);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 12);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "课程容量";
+            // 
+            // txtCourseScore
+            // 
+            this.txtCourseScore.Location = new System.Drawing.Point(180, 224);
+            this.txtCourseScore.Name = "txtCourseScore";
+            this.txtCourseScore.Size = new System.Drawing.Size(197, 21);
+            this.txtCourseScore.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(96, 228);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "课程学分";
+            // 
+            // txtCoursePlace
+            // 
+            this.txtCoursePlace.Location = new System.Drawing.Point(180, 174);
+            this.txtCoursePlace.Name = "txtCoursePlace";
+            this.txtCoursePlace.Size = new System.Drawing.Size(197, 21);
+            this.txtCoursePlace.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(96, 178);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 12);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "上课地点";
+            // 
+            // txtCourseTime
+            // 
+            this.txtCourseTime.Location = new System.Drawing.Point(180, 124);
+            this.txtCourseTime.Name = "txtCourseTime";
+            this.txtCourseTime.Size = new System.Drawing.Size(197, 21);
+            this.txtCourseTime.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(96, 128);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 12);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "上课时间";
+            // 
+            // btnAddCourse
+            // 
+            this.btnAddCourse.Location = new System.Drawing.Point(163, 349);
+            this.btnAddCourse.Name = "btnAddCourse";
+            this.btnAddCourse.Size = new System.Drawing.Size(143, 23);
+            this.btnAddCourse.TabIndex = 10;
+            this.btnAddCourse.Text = "提交";
+            this.btnAddCourse.UseVisualStyleBackColor = true;
+            this.btnAddCourse.Click += new System.EventHandler(this.btnAddCourse_Click);
+            // 
+            // 发布课程
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(500, 442);
+            this.Controls.Add(this.btnAddCourse);
+            this.Controls.Add(this.txtCourseTime);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtCoursePlace);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtCourseScore);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtCourseReamin);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtCourseName);
+            this.Controls.Add(this.label1);
+            this.Name = "发布课程";
+            this.Text = "发布课程";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtCourseName;
+        private System.Windows.Forms.TextBox txtCourseReamin;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtCourseScore;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtCoursePlace;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtCourseTime;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnAddCourse;
+    }
+}
